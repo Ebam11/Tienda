@@ -1,0 +1,38 @@
+[{
+  "_id": {
+    "$oid": "68cc8380bee4773a18596104"
+  },
+  "name": "IPhone 13 Pro",
+  "price": 1200000,
+  "stock": 10,
+  "category": {
+    "type": "Electronics",
+    "brand": "Apple",
+    "model": "IPhone 13 Pro",
+    "specs": {
+      "color": "Graphite",
+      "storage": "256GB",
+      "ram": "6GB",
+      "camera": "12MP"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68cc8380bee4773a18596105"
+  },
+  "name": "Samsung Galaxy S21",
+  "price": 900000,
+  "stock": 15,
+  "category": {
+    "type": "Electronics",
+    "brand": "Samsung",
+    "model": "Galaxy S21",
+    "specs": {
+      "color": "Phantom Gray",
+      "storage": "128GB",
+      "ram": "8GB",
+      "camera": "64MP"
+    }
+  }
+}]
