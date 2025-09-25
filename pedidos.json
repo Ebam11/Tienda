@@ -1,0 +1,106 @@
+[
+  {
+    "_id": 1,
+    "orden": "PED-001",
+    "comprador": "Ana López",
+    "contacto": "ana.lopez@email.com",
+    "cel": "3001234567",
+    "dir": "Carrera 15 #45-67, Chapinero",
+    "fecha": "2025-09-20",
+    "items": [
+      {"producto": "Leche Deslactosada", "qty": 2, "precio": 4500},
+      {"producto": "Yogurt Natural", "qty": 1, "precio": 3800}
+    ],
+    "valor": 12800,
+    "descuento": 450,
+    "total": 12350,
+    "status": "entregado",
+    "pago": "tarjeta"
+  },
+  {
+    "_id": 2,
+    "codigo": "ORD-002",
+    "usuario": {
+      "name": "Ana López",
+      "mail": "ana.lopez@email.com",
+      "phone": "3001234567",
+      "tipo": "vip"
+    },
+    "timestamp": "2025-09-22T14:15:30Z",
+    "articulos": [
+      {"item": "Manzana Roja", "cantidad": 3, "costo": 2500, "nota": "Maduras"},
+      {"item": "Banana", "cantidad": 2, "costo": 1800}
+    ],
+    "resumen_orden": {
+      "productos": 2,
+      "unidades": 5,
+      "subtotal": 11100
+    },
+    "estado_actual": "preparando",
+    "canal": "whatsapp"
+  },
+  {
+    "_id": 3,
+    "ref": "WEB-789",
+    "cliente_info": {
+      "nombre_completo": "Carlos Mendez",
+      "email_personal": "carlos.mendez@email.com",
+      "movil": "3007654321",
+      "compras_previas": 15,
+      "gps": {"lat": 4.6097, "lng": -74.0817}
+    },
+    "fecha_orden": "2025-09-21",
+    "lista_compra": [
+      {
+        "nombre_producto": "Queso Campesino",
+        "unidades": 1,
+        "valor_unitario": 8500,
+        "peso": "500g"
+      }
+    ],
+    "billing": {
+      "subtotal": 8500,
+      "total_pagar": 8500,
+      "divisa": "COP"
+    },
+    "delivery_status": "en_ruta",
+    "observaciones": "Queso bien curado",
+    "mensajero": "Diego Morales - 3151234567"
+  },
+  {
+    "_id": 4,
+    "pedido_num": "12345",
+    "customer": {
+      "full_name": "María García",
+      "primary_email": "maria.garcia@email.com",
+      "main_phone": "3009876543",
+      "alt_phone": "6012345678",
+      "address": "Calle 72 #11-35, Bogotá"
+    },
+    "order_time": "2025-09-19T16:20:15Z",
+    "productos_solicitados": [
+      {
+        "descripcion": "Leche Deslactosada",
+        "cant": 1,
+        "precio_cada_uno": 4500,
+        "fabricante": "Lácteos Bogotá",
+        "expira": "2025-10-15",
+        "batch": "LB2025091"
+      }
+    ],
+    "factura": {
+      "productos_valor": 4500,
+      "envio": 3000,
+      "tip": 500,
+      "gran_total": 8000
+    },
+    "tracking": {
+      "current_status": "delivered",
+      "delivered_at": "2025-09-19T18:45:00Z",
+      "rating": 5,
+      "review": "Excelente servicio"
+    },
+    "promos": ["first_time_discount"],
+    "payment_method": "cash"
+  }
+]

@@ -1,34 +1,142 @@
 [
   {
-    "name": "IPhone 13 Pro",
-    "price": 1200000,
-    "stock": 10,
-    "category": {
-      "type": "Electronics",
-      "brand": "Apple",
-      "model": "IPhone 13 Pro",
-      "specs": {
-        "color": "Graphite",
-        "storage": "256GB",
-        "ram": "6GB",
-        "camera": "12MP"
-      }
+    "_id": 1,
+    "nombre": "Manzana Roja",
+    "precio": 2500,
+    "stock": 80,
+    "categoria": "Frutas",
+    "proveedor": {
+      "nombre": "Frutas del Valle",
+      "ciudad": "Medellín",
+      "contactos": ["3101234567", "3201234567"],
+      "certificaciones": ["Organico", "BPM"],
+      "tipo_empresa": "Cooperativa"
     }
   },
   {
-    "name": "Samsung Galaxy S21",
-    "price": 900000,
-    "stock": 15,
-    "category": {
-      "type": "Electronics",
-      "brand": "Samsung",
-      "model": "Galaxy S21",
-      "specs": {
-        "color": "Phantom Gray",
-        "storage": "128GB",
-        "ram": "8GB",
-        "camera": "64MP"
-      }
+    "_id": 2,
+    "nombre": "Leche Deslactosada",
+    "precio": 4500,
+    "stock": 45,
+    "categoria": "Lácteos",
+    "proveedor": {
+      "razon_social": "Lácteos Bogotá S.A.S",
+      "nit": "800234567-8",
+      "email": "ventas@lacteosbogota.com",
+      "representante": {
+        "nombre": "María González",
+        "cargo": "Gerente Comercial",
+        "telefono": "3102345678"
+      },
+      "anos_experiencia": 15
+    }
+  },
+  {
+    "_id": 3,
+    "nombre": "Pan Integral",
+    "precio": 3200,
+    "stock": 25,
+    "categoria": "Panadería",
+    "proveedor": {
+      "nombre_comercial": "Panadería Central",
+      "propietario": "Carlos Rodríguez",
+      "direccion_completa": "Carrera 7 #12-34, Bogotá",
+      "horarios": {
+        "apertura": "05:00",
+        "cierre": "20:00",
+        "dias": ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"]
+      },
+      "delivery": true
+    }
+  },
+  {
+    "_id": 4,
+    "nombre": "Yogurt Natural",
+    "precio": 3800,
+    "stock": 70,
+    "categoria": "Lácteos",
+    "proveedor": {
+      "empresa": "Lácteos del Norte",
+      "sede_principal": "Bogotá",
+      "sucursales": [
+        {"ubicacion": "Medellín", "tel": "3201111111"},
+        {"ubicacion": "Cali", "tel": "3202222222"}
+      ],
+      "capacidad_produccion": "5000 litros/día",
+      "certificado_iso": true,
+      "calificacion": 4.8
+    }
+  },
+  {
+    "_id": 5,
+    "nombre": "Banana",
+    "precio": 1800,
+    "stock": 120,
+    "categoria": "Frutas",
+    "proveedor": {
+      "distribuidor": "Frutas Tropicales",
+      "coordenadas": {
+        "latitud": 3.4516,
+        "longitud": -76.5320
+      },
+      "whatsapp": "3105678901",
+      "temporadas": ["Enero-Marzo", "Julio-Septiembre"],
+      "variedades": ["Cavendish", "Bocadillo", "Hartón"],
+      "exporta": false
+    }
+  },
+  {
+    "_id": 6,
+    "nombre": "Queso Campesino",
+    "precio": 8500,
+    "stock": 30,
+    "categoria": "Lácteos",
+    "proveedor": {
+      "artesano": "Patricia Silva",
+      "taller": "Quesos Artesanales La Tradición",
+      "municipio": "Zipaquirá",
+      "metodo": "Tradicional",
+      "ingredientes": ["Leche de vaca", "Cuajo natural", "Sal marina"],
+      "maduracion": "15 días",
+      "pedido_min": 5,
+      "instagram": "@quesoslatradicion"
+    }
+  },
+  {
+    "_id": 7,
+    "nombre": "Naranja Valencia",
+    "precio": 2200,
+    "stock": 95,
+    "categoria": "Frutas",
+    "proveedor": {
+      "finca": "Cítricos del Sur",
+      "propietarios": ["Roberto Gómez", "Ana Gómez"],
+      "vereda": "El Caguán",
+      "hectareas": 25,
+      "telefono": "3107890123",
+      "email_finca": "finca@citricosdelsur.com",
+      "otros_cultivos": ["Mandarina", "Limón", "Toronja"],
+      "temporada_alta": "Diciembre-Abril"
+    }
+  },
+  {
+    "_id": 8,
+    "nombre": "Arroz Premium",
+    "precio": 4200,
+    "stock": 55,
+    "categoria": "Granos",
+    "proveedor": {
+      "mayorista": "Granos Selectos Ltda",
+      "codigo": "GS-001",
+      "almacen": "Calle 24 #68-90",
+      "capacidad": "500 toneladas",
+      "refrigerado": true,
+      "origenes": [
+        {"region": "Tolima", "porcentaje": 60},
+        {"region": "Huila", "porcentaje": 40}
+      ],
+      "presentaciones": ["1kg", "5kg", "25kg", "50kg"],
+      "entrega": "24-48 horas"
     }
   }
 ]
